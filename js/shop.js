@@ -274,7 +274,7 @@ function applyPromotionsCart() {
     document.getElementById("mensaje2").innerText=mensaje2;
 
 }
-
+//not done.
 // Exercise 7
 function addToCart(id) {
     // Refactor previous code in order to simplify it 

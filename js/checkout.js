@@ -20,7 +20,7 @@ function validate() {
     // Validate fields entered by the user: name, phone, password, and email
     form.classList.remove('is-invalid');
     var acumulador = 0;
-//NAME
+//NAME.
         if(nameUser.value.length==0){
             nameUser.classList.add("is-invalid");
             document.getElementById("errorNames").textContent = "Campo obligatorio";           
@@ -37,7 +37,7 @@ function validate() {
             document.getElementById("errorNames").textContent = "No pueden haber números";
             
         }
-//LAST NAME
+//LAST NAME.
 
         if(lastName.value.length==0){
             lastName.classList.add("is-invalid");
